@@ -1,5 +1,11 @@
 # Logistic-Regression-Classifier-From-Scratch
 
+![ alt text ](https://img.shields.io/badge/license-MIT-green?style=&logo=)
+![ alt text ](https://img.shields.io/badge/-Python-3776AB?logo=Python&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-Jupyter-F37626?logo=Jupyter&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-NumPy-013243?logo=Numpy&logoColor=white)
+![ alt text ](https://img.shields.io/badge/-pandas-150458?logo=Pandas&logoColor=white)
+
 Logistic regression with the ability of implementing penalty terms. The class object is dedicated to binary classification and is compatible with `scikit-learn`'s GridSearchCV method.<br>
 An example of its usage was performed on the WBCD dataset and returned the following estimates:
 * Accuracy: 0.9883
