@@ -290,7 +290,7 @@ class LogisticRegression(object):
             return -np.mean(y_test * np.log(predicted_new) + (1 - y_test) * np.log(1 - predicted_new))
 
         ROC = ((recall**2 + specificity**2)**0.5) / (2**0.5)
-        missed_samples = (y_test != predictions).sum()
+        missed_samples = int((y_test != predictions).sum())
         
         metrics = {
             'Accuracy': accuracy,
